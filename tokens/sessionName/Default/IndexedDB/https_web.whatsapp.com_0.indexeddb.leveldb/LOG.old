@@ -1,0 +1,55 @@
+2025/05/14-15:19:23.576 5504 Reusing MANIFEST C:\Users\jefersonq\Desktop\CHATBOT\tokens\sessionName\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2025/05/14-15:19:23.578 5504 Recovering log #1181
+2025/05/14-15:19:23.611 5504 Reusing old log C:\Users\jefersonq\Desktop\CHATBOT\tokens\sessionName\Default\IndexedDB\https_web.whatsapp.com_0.indexeddb.leveldb/001181.log 
+2025/05/14-15:19:25.300 48e4 Level-0 table #1210: started
+2025/05/14-15:19:25.323 48e4 Level-0 table #1210: 701721 bytes OK
+2025/05/14-15:19:25.330 48e4 Delete type=0 #1181
+2025/05/14-15:19:25.331 48e4 Manual compaction at level-0 from '\x00F\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00G\x00\x00\x00' @ 0 : 0; will stop at '\x00F\x00\x00\x05' @ 4495505 : 1
+2025/05/14-15:19:25.332 48e4 Compacting 1@0 + 1@1 files
+2025/05/14-15:19:25.356 48e4 Generated table #1211@0: 10104 keys, 179254 bytes
+2025/05/14-15:19:25.370 48e4 Generated table #1212@0: 2187 keys, 160239 bytes
+2025/05/14-15:19:25.381 48e4 Generated table #1213@0: 2731 keys, 61731 bytes
+2025/05/14-15:19:25.381 48e4 Compacted 1@0 + 1@1 files => 401224 bytes
+2025/05/14-15:19:25.382 48e4 compacted to: files[ 0 3 29 0 0 0 0 ]
+2025/05/14-15:19:25.384 48e4 Delete type=2 #1210
+2025/05/14-15:19:25.385 48e4 Manual compaction at level-0 from '\x00F\x00\x00\x05' @ 4495505 : 1 .. '\x00G\x00\x00\x00' @ 0 : 0; will stop at (end)
+2025/05/14-15:19:26.768 406c Compacting 1@1 + 10@2 files
+2025/05/14-15:19:26.889 406c Generated table #1214@1: 42931 keys, 2247187 bytes
+2025/05/14-15:19:26.982 406c Generated table #1215@1: 34741 keys, 2254065 bytes
+2025/05/14-15:19:27.081 406c Generated table #1216@1: 35934 keys, 2247084 bytes
+2025/05/14-15:19:27.174 406c Generated table #1217@1: 26509 keys, 2192023 bytes
+2025/05/14-15:19:27.241 406c Generated table #1218@1: 13501 keys, 2139798 bytes
+2025/05/14-15:19:27.300 406c Generated table #1219@1: 11128 keys, 2134547 bytes
+2025/05/14-15:19:27.385 406c Generated table #1220@1: 85406 keys, 2230725 bytes
+2025/05/14-15:19:27.514 406c Generated table #1221@1: 101091 keys, 2250397 bytes
+2025/05/14-15:19:27.641 406c Generated table #1222@1: 99935 keys, 2250276 bytes
+2025/05/14-15:19:27.768 406c Generated table #1223@1: 101068 keys, 2251690 bytes
+2025/05/14-15:19:27.774 406c Generated table #1224@1: 239 keys, 5942 bytes
+2025/05/14-15:19:27.774 406c Compacted 1@1 + 10@2 files => 22203734 bytes
+2025/05/14-15:19:27.775 406c compacted to: files[ 0 2 30 0 0 0 0 ]
+2025/05/14-15:19:27.776 406c Delete type=2 #1185
+2025/05/14-15:19:27.776 406c Delete type=2 #1186
+2025/05/14-15:19:27.776 406c Delete type=2 #1187
+2025/05/14-15:19:27.776 406c Delete type=2 #1188
+2025/05/14-15:19:27.776 406c Delete type=2 #1189
+2025/05/14-15:19:27.776 406c Delete type=2 #1190
+2025/05/14-15:19:27.776 406c Delete type=2 #1191
+2025/05/14-15:19:27.777 406c Delete type=2 #1192
+2025/05/14-15:19:27.777 406c Delete type=2 #1193
+2025/05/14-15:19:27.777 406c Delete type=2 #1194
+2025/05/14-15:19:27.777 406c Delete type=2 #1195
+2025/05/14-15:19:27.777 406c Delete type=2 #1212
+2025/05/14-15:19:27.910 406c Compacting 1@1 + 10@2 files
+2025/05/14-15:19:28.001 406c Generated table #1225@1: 47865 keys, 2211188 bytes
+2025/05/14-15:19:28.068 406c Generated table #1226@1: 19275 keys, 2174192 bytes
+2025/05/14-15:19:28.131 406c Generated table #1227@1: 2259 keys, 2155013 bytes
+2025/05/14-15:19:28.225 406c Generated table #1228@1: 3690 keys, 2157643 bytes
+2025/05/14-15:19:28.291 406c Generated table #1229@1: 4543 keys, 2155730 bytes
+2025/05/14-15:19:28.368 406c Generated table #1230@1: 4711 keys, 2154613 bytes
+2025/05/14-15:19:28.423 406c Generated table #1231@1: 4275 keys, 2153972 bytes
+2025/05/14-15:19:28.497 406c Generated table #1232@1: 4485 keys, 2152451 bytes
+2025/05/14-15:19:28.563 406c Generated table #1233@1: 5026 keys, 2154634 bytes
+2025/05/14-15:19:28.625 406c Generated table #1234@1: 14399 keys, 2170483 bytes
+2025/05/14-15:19:28.634 406c Generated table #1235@1: 1125 keys, 37895 bytes
+2025/05/14-15:19:28.635 406c Compacted 1@1 + 10@2 files => 21677814 bytes
+2025/05/14-15:19:28.636 406c compacted to: files[ 0 1 31 0 0 0 0 ]
