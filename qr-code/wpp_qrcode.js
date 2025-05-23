@@ -1,12 +1,12 @@
 // Importando módulos
 const venom = require('venom-bot');
-const mainMenu = require('./menus/main_menu');
-const sub_menu_automatizar_processos = require('./menus/sub_menu_automatizar_processos.js');
-const sub_menu_desenvolvimento_sites = require('./menus/sub_menu_desenvolvimento_sites.js');
-const sub_menu_infra_rede = require('./menus/sub_menu_infra_rede.js');
-const sub_menu_teste_software = require('./menus/sub_menu_teste_software.js');
-const sub_menu_web_scraping = require('./menus/sub_menu_web_scraping.js');
-const sub_menu_suporte_tecnico = require('./menus/sub_menu_suporte_tecnico.js');
+const mainMenu = require('../menus/main_menu.js');
+const sub_menu_automatizar_processos = require('../menus/sub_menu_automatizar_processos.js');
+const sub_menu_desenvolvimento_sites = require('../menus/sub_menu_desenvolvimento_sites.js');
+const sub_menu_infra_rede = require('../menus/sub_menu_infra_rede.js');
+const sub_menu_teste_software = require('../menus/sub_menu_teste_software.js');
+const sub_menu_web_scraping = require('../menus/sub_menu_web_scraping.js');
+const sub_menu_suporte_tecnico = require('../menus/sub_menu_suporte_tecnico.js');
 
 // Armazena os estados dos usuários
 const userStates = {};
@@ -25,9 +25,26 @@ const submenus = {
 
 
 
-venom.create('sessionName')
+venom
+  .create(
+    'sessionName',
+    (base64Qr, asciiQR) => {
+      console.log('QR Code generated, please scan it with your phone.');
+      console.log('Base64 QR Code:', base64Qr);
+      console.log('ASCII QR Code:', asciiQR);
+    },
+    undefined,
+    {
+      multidevice: true,
+      headless: true,
+      disableSpins: true,
+    }
+  )
   .then((client) => start(client))
-  .catch((error) => console.error('Erro ao iniciar:', error));
+  .catch((error) => {
+    console.error('Error creating Venom client:', error);
+  });
+
 
 function start(client) {
   console.log('Cliente conectado!');
